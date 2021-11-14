@@ -1,0 +1,49 @@
+.header{
+    color: red;
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+ul, .border-black{
+    color:blue;
+    background-color: lightgray;
+
+}
+.border-black{
+    border-style: solid;
+    border-color: black;
+}
+body{
+    background-color: grey;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+article {
+    background-color: lightgray;
+}
+
+.flexP {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+article > section {
+    /* width: calc(100vw/3); */
+    padding: 1.5rem;
+    background-color: mintcream;
+    margin: 1rem;
+    border: mintcream solid;
+    border-radius: 25px;
+    font-size: 1.5vh;
+} 
